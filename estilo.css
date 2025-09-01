@@ -19,7 +19,7 @@ body {
 header {
     /* border: .1rem solid #00ff48; */
     height: 4rem;
-    background-color: #252323;
+    background: linear-gradient(to bottom, #093270, #85a5df);
     color: #eee;
     padding: .5rem;
     display: flex;
@@ -53,6 +53,32 @@ nav {
     background-color: #eee;
 }
 
+.menu-lateral {
+    border: .1rem solid blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.opcao {
+    display: flex;
+}
+
+.icone-inicial {
+    border: .1rem solid red;
+    margin-right: .3rem;
+}
+.rotulo {
+    border: .1rem solid rgb(17, 0, 255);
+    flex: 1;
+}
+
+.icone-final {
+     border: .1rem solid rgb(0, 255, 128);
+     margin-left: .3rem;
+}
+
 main {
     /* border: .1rem solid #e6088d; */
     flex: 1;
@@ -61,7 +87,7 @@ main {
 footer {
     /* border: .1rem solid rgb(9, 214, 246); */
     height: 4rem;
-    background-color: #252323;
+    background-color: #02193b;
     color: #eee;
     padding: .5rem;
 }
